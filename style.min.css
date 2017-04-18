@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Averia+Sans+Libre:300i);
+@import url(https://fonts.googleapis.com/css?family=Fredoka+One);
+*{box-sizing:border-box}
+.row:after,.row:before{content:"";display:table;clear:both}
+[class^=col-]{float:left;height:150px;padding:0}
+.col-1{width:8.33%}
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+body{margin:0}
+.container{max-width:1200px;width:100%;margin:0 auto}
+header{background:#5a5c5f}
+header nav ul{float:right;list-style:none;margin:0}
+header nav ul li{display:inline-block;padding-top:10px}
+header nav ul li:first-child a{color:#0e6fc3}
+header nav ul li a{margin:20px 15px;text-decoration:none;display:block;color:#e2dbdb;font-family:"Open Sans",sans-serif;font-weight:700;text-transform:uppercase;font-size:20px}
+header nav ul li a:hover{cursor:pointer;opacity:.6}
+header nav img{margin:15px}
+.hero{margin:0;padding:0;height:450px;position:relative;background:#7f8c8d url(https://static.pexels.com/photos/71983/black-and-white-interior-macbook-drawing-71983.jpeg);background-size:cover}
+.hero .slogan{margin-top:40px;background:rgba(0,0,0,.6);min-height:200px;max-width:400px;float:right;padding:30px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;border-radius:5px}
+.hero .slogan h1{font-family:"Averia Sans Libre",cursive;color:#EEA500;text-shadow:8px 8px 20px #bdc3c7;text-transform:uppercase;margin:15px;text-align:right}
+.hero .slogan p{padding-top:15px;font-family:"Averia Sans Libre",cursive;font-size:20px;text-transform:none;color:#EEA500;text-align:right}
+.icon .icons-work{padding:40px;text-align:center;min-height:350px}
+.icon .work{margin-bottom:30px}
+.icon .work button{font-size:80px;background:#000;color:#fff;border:none;box-shadow:10px 10px 20px #bdc3c7;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;border-radius:5px}
+.icon .work button:hover{cursor:pointer;opacity:.5}
+.icon .work h4{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:600;text-shadow:8px 8px 20px #bdc3c7}
+.icon .work p{font-size:15px;margin:0 30px;font-family:"Open Sans",sans-serif}
+.icon .fa{padding:20px}
+.icon .btn-laptop button{background:#3498db}
+.icon .btn-laptop h4{color:#3498db}
+.feat-works{height:200px;margin:0 auto}
+.feat-works .example{text-align:center;background:#fff}
+.feat-works .example h2{font-family:"Fredoka One",cursive;color:#080808;text-shadow:8px 8px 20px #bdc3c7;padding-top:15px;text-transform:uppercase}
+.feat-works .example p{font-size:15px;font-family:"Open Sans",sans-serif;padding-top:15px}
+.icon-container{position:relative;background:#100f0f}
+.icon-container:hover .middle{opacity:1}
+.icon-container img{width:100%;height:100%}
+.icon-container img:hover{opacity:.2}
+.middle{position:absolute;transition:.5s ease;opacity:0;top:33%;left:25%;display:inline}
+.middle i{color:#fff;text-align:center;display:inline;margin:30px}
+.team{margin:0 auto;max-height:300px}
+.person{position:relative;height:240px;width:240px;object-fit:fill;margin:20px 30px}
+.person .description{-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;position:absolute;width:100%;height:100%;display:flex;justify-content:center;align-items:center}
+.person .description:hover h3{display:inline-block}
+.person .description:hover{background-color:rgba(0,0,0,.5);cursor:pointer;transition-duration:.6s}
+.person .description h3{display:none;color:#fff;font-family:"Open Sans",sans-serif}
+.person .photo{-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;border-radius:50%;width:100%;height:100%;text-align:center;box-shadow:10px 10px 20px #bdc3c7}
+.person h2{color:#7f8c8d;font-family:"Open Sans",sans-serif;margin:15px;text-align:center;text-shadow:8px 8px 20px #bdc3c7}
+.aw-title{margin-top:80px;padding-top:40px;height:250px}
+.left img{height:100%;float:right;margin-right:40px;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;border-radius:5px;box-shadow:10px 10px 20px #bdc3c7}
+.right h3{text-transform:uppercase;font-family:"Fredoka One",cursive;text-shadow:8px 8px 20px #bdc3c7;text-align:right}
+.right p{text-align:right;font-family:"Open Sans",sans-serif;font-size:14px}
+.text p{font-family:"Averia Sans Libre",cursive;font-size:15px;margin-top:60px}
+.effects{margin:0 auto;min-height:120px;text-align:center}
+.effects h1{font-family:"Fredoka One",cursive;text-shadow:8px 8px 20px #bdc3c7}
+.effects p{color:#3498db;text-shadow:8px 8px 20px #bdc3c7;font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:600}
+.tootsy{background:#5a5c5f}
+.tootsy .commercial{min-height:320px;color:#e2dbdb;font-family:"Open Sans",sans-serif}
+.tootsy .commercial p{font-size:15px;padding-right:20px}
+.tootsy .commercial .social{height:30%;margin:0 auto}
+.tootsy .commercial .social button{background:#3498db;color:#fff;height:100%}
+.tootsy .commercial .social button:hover{cursor:pointer;opacity:.5}
+.tootsy .commercial .social button i{font-size:20px;padding:0 10px}
+.footer{background:#080808;margin:0;padding:0;text-align:center}
+.footer p{font-family:"Open Sans",sans-serif;font-size:15px;padding:20px;color:#fff;margin:0}
+@media(min-width:768px) and (max-width:1199px){.row:after,.row:before{content:"";display:table;clear:both}
+.col-md-1{width:8.33%}
+.col-md-2{width:16.66%}
+.col-md-3{width:25%}
+.col-md-4{width:33.33%}
+.col-md-5{width:41.66%}
+.col-md-6{width:50%}
+.col-md-7{width:58.33%}
+.col-md-8{width:66.66%}
+.col-md-9{width:75%}
+.col-md-10{width:83.33%}
+.col-md-11{width:91.66%}
+.col-md-12{width:100%}
+.hero{height:60vh}
+.middle{left:30%}
+.middle i{padding:0}
+.aw-title,.person{margin:20px auto}
+.aw-title .left img{height:80%;margin:40px 50px}
+.aw-title .right{padding:15px}
+.results{padding:20px}
+.tootsy{padding:0 30px}
+.tootsy .commercial{margin:0 auto}
+.tootsy .commercial .contact{margin:0}
+.tootsy .commercial .contact .ephone{padding:0 40px}
+.tootsy .commercial .contact .ephone p{text-align:left}
+.tootsy .socmed .social{margin:0 auto}}
+@media(max-width:767px){.row:after,.row:before{content:"";display:table;clear:both}
+[class^=col-]{float:none;height:auto}
+.col-xs-1{width:8.33%}
+.col-xs-2{width:16.66%}
+.col-xs-3{width:25%}
+.col-xs-4{width:33.33%}
+.col-xs-5{width:41.66%}
+.col-xs-6{width:50%}
+.col-xs-7{width:58.33%}
+.col-xs-8{width:66.66%}
+.col-xs-9{width:75%}
+.col-xs-10{width:83.33%}
+.col-xs-11{width:91.66%}
+.col-xs-12{width:100%}
+.container{width:100% s}
+.nav{text-align:center;display:block}
+.icon{padding:20px auto}
+.btn-globe,.btn-laptop,.industry{margin-bottom:20px}
+.works{margin-bottom:60px}
+.works p{text-align:center}
+.team{text-align:center;margin:40px auto;min-height:600px}
+.team .person{height:150px;width:150px;margin:0 auto 30px}
+.team .person .description{display:none}
+.team .person .photo{width:60%;height:60%}
+.team .person h2{font-size:18px}
+.aw-title{margin:60px auto}
+.aw-title .left{min-height:80px}
+.aw-title .left img{height:150px}
+.aw-title .right .text p,.aw-title .right .title h3,.aw-title .right .title p{text-align:center}
+.effects{min-height:400px;margin-top:220px}
+.commercial{padding-left:30px}
+.socmed{margin-bottom:20px}
+.socmed .social{text-align:center}}
