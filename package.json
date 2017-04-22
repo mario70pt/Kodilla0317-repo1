@@ -1,0 +1,27 @@
+{
+  "name": "testowy-projekt",
+  "version": "1.0.0",
+  "description": "Kodilla test projektgrunt\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C \u001b[2~grunt\u001b[A\u001b[A\u001b[A\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D-grunt-projekt\u001b[B\u001b[B\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-test1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mario70pt/Kodilla0317-repo1.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "mario70pt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mario70pt/Kodilla0317-repo1/issues"
+  },
+  "homepage": "https://github.com/mario70pt/Kodilla0317-repo1#readme",
+  "devDependencies": {
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
